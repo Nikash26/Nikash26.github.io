@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ICE CREAM SHOP</title>
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <link rel="stylesheet" href="ice.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body id="bo">
+    <script src="ice.js"></script>
+    <div id="home">
+        <header class="oneh">
+            <img class="iceimg" src="lalala-removebg-preview.png">
+            <ul class="header">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#flavors">FLAVORS</a></li>
+                <li onclick="popup()"><a href="#home">MENU</a></li>
+                <li><a href="order.html">SHOP</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </header>
+        <div class="pop" id="up">
+           <div class="menut"> <h3>MENU</h3>
+            <a href="#" onclick="popup()">X</a></div>
+            <form>
+                <label>1.VANNILA______________________________₹50</label><br>
+                <BR>
+                <label>2.STRAWBERRY_________________________₹40</label><br>
+                <br>
+                <label>3.PISTA_________________________________₹80</label><br>
+                <br>
+                <label>4.BLACK CURRANT_____________________₹90</label><br>
+                <br>
+                <label>5.BUTTER SCOTCH______________________₹60</label><br>
+                <br>
+                <label>6.BLUEBERRY___________________________₹80</label><br>
+                <br>
+                <label>7.CHOCOLATE__________________________₹60</label>                
+            </form>
+        </div>
+        <div class="shopname" id="blur1">
+            <h1>LALALA</h1>
+            <h3>ICE CREAM</h3>
+        </div>
+        <div class="bt1" id="blur2">
+            <button onclick="popup()">VIEW MENU</button>
+            <button><a href="order.html">ORDER ONLINE</a></button>
+        </div>
+        <div class="ice1" id="blur3">
+            <img src="ice1-removebg-preview.png" class="bigice" >
+        </div>
+    </div>
+    <div id="flavors">
+        <div class="flavors">
+            <h2>OUR FLAVORS</h2>
+        </div>
+        <div class="grid-c">
+            <div class="gridi">
+                <img class="vannila" src="vannila.jpg">
+                <h3>VANNILA</h3>
+                <p>“Life is better with sprinkles on top.”</p>
+            </div>
+            <div class="gridi">
+                <img class="straw" src="strawberry.jpg">
+                <h3>STRAWBERRY</h3>
+                <p>"Sweet as strawberry wine.”</p>
+            </div>
+            <div class="gridi">
+                <img class="pista" src="pista.jpg">
+                <h3>PISTA</h3>
+                <p>"Stay cool with every scoop.”</p>
+            </div>
+            <div class="gridi">
+                <img class="black" src="black currant.jpg">
+                <h3>BLACK CURRANT</h3>
+                <p>"Life is too short to not get the double scoop.”</p>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="gridc2">
+            <div class="gridi2">
+                <pre>HATSUN AGRO PRODUCT LTD
+
+Plot No. 14,
+
+Tamil Nadu Housing Board "A" Road,
+
+Kuniyamuthur, Coimbatore - 641 006, India.
+                </pre>
+                <a href="#" class="fa fa-whatsapp"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-twitter"></a>
+            </div>
+            <div class="gridi2">
+                <pre>To learn more about our services and offerings,
+
+Telephone Number: 044-24501622.
+
+Fax Number: 044-24501422.
+
+Mail ID: lalala@gmail.in
+                </pre>
+            </div>
+            <div class="gridi2">
+                <img class="cont" src="cartoon_icecream-removebg-preview.png">
+            </div>
+
+        </div>
+        <footer>
+        <p style="font-weight: bold;">Copyright &#169 2024. Hatsun Agro Product.</p>
+        </footer>
+    </div>
+    <script>
+         ScrollReveal({ 
+            reset: true,
+            distance: '80px',
+            duration: 1000,
+            delay:0
+          });
+          ScrollReveal().reveal('.bigice', { delay: 0 ,});
+          ScrollReveal().reveal('.shopname', { delay: 0 ,});
+          ScrollReveal().reveal('.gridi', { delay: 0 ,interval:100});
+          ScrollReveal().reveal('.bt1', { delay: 0 ,origin:"left"});
+    </script>
+</body>
+</html>

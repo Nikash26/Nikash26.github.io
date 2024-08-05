@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "name":"MAGNUM ALMOND",
+        "price":120,
+        "image":"/almond magnum.jpg"
+    },
+    {
+        "id":2,
+        "name":"STRAWBERRY",
+        "price":120,
+        "image":"/straw.jpg"
+    },
+    {
+        "id":3,
+        "name":"VANNILA CHEESCAKE",
+        "price":120,
+        "image":"/vannila cheesecake.jpg"
+    },
+    {
+        "id":4,
+        "name":"RASPBERRY",
+        "price":120,
+        "image":"/raspberry.jpg"
+    },
+    {
+        "id":5,
+        "name":"MANGO",
+        "price":120,
+        "image":"/mango.jpg"
+    },
+    {
+        "id":6,
+        "name":"VANNILA",
+        "price":120,
+        "image":"/vvv.jpg"
+    }
+]
